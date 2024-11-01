@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73EB9E342CD46F3400C26DD9 /* mxml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E332CD46F3400C26DD9 /* mxml.swift */; };
+		73EB9E472CD46F9E00C26DD9 /* mxml-attr.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E3B2CD46F9D00C26DD9 /* mxml-attr.c */; };
+		73EB9E482CD46F9E00C26DD9 /* mxml-file.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E3C2CD46F9D00C26DD9 /* mxml-file.c */; };
+		73EB9E492CD46F9E00C26DD9 /* mxml-get.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E3F2CD46F9D00C26DD9 /* mxml-get.c */; };
+		73EB9E4A2CD46F9E00C26DD9 /* mxml-entity.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E402CD46F9D00C26DD9 /* mxml-entity.c */; };
+		73EB9E4B2CD46F9E00C26DD9 /* mxml-search.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E412CD46F9D00C26DD9 /* mxml-search.c */; };
+		73EB9E4C2CD46F9E00C26DD9 /* mxml-string.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E422CD46F9D00C26DD9 /* mxml-string.c */; };
+		73EB9E4D2CD46F9E00C26DD9 /* mxml-set.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E432CD46F9D00C26DD9 /* mxml-set.c */; };
+		73EB9E4E2CD46F9E00C26DD9 /* mxml-index.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E442CD46F9D00C26DD9 /* mxml-index.c */; };
+		73EB9E4F2CD46F9E00C26DD9 /* mxml-node.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E452CD46F9D00C26DD9 /* mxml-node.c */; };
+		73EB9E502CD46F9E00C26DD9 /* mxml-private.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9E462CD46F9E00C26DD9 /* mxml-private.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73EB9E2E2CD46F3400C26DD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		73EB9E302CD46F3400C26DD9 /* libmxml.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmxml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EB9E332CD46F3400C26DD9 /* mxml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mxml.swift; sourceTree = "<group>"; };
+		73EB9E3A2CD46F9D00C26DD9 /* mxml-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mxml-Bridging-Header.h"; sourceTree = "<group>"; };
+		73EB9E3B2CD46F9D00C26DD9 /* mxml-attr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-attr.c"; path = "../../../mxml-attr.c"; sourceTree = "<group>"; };
+		73EB9E3C2CD46F9D00C26DD9 /* mxml-file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-file.c"; path = "../../../mxml-file.c"; sourceTree = "<group>"; };
+		73EB9E3D2CD46F9D00C26DD9 /* mxml-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "mxml-private.h"; path = "../../../mxml-private.h"; sourceTree = "<group>"; };
+		73EB9E3E2CD46F9D00C26DD9 /* mxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mxml.h; path = ../../../mxml.h; sourceTree = "<group>"; };
+		73EB9E3F2CD46F9D00C26DD9 /* mxml-get.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-get.c"; path = "../../../mxml-get.c"; sourceTree = "<group>"; };
+		73EB9E402CD46F9D00C26DD9 /* mxml-entity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-entity.c"; path = "../../../mxml-entity.c"; sourceTree = "<group>"; };
+		73EB9E412CD46F9D00C26DD9 /* mxml-search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-search.c"; path = "../../../mxml-search.c"; sourceTree = "<group>"; };
+		73EB9E422CD46F9D00C26DD9 /* mxml-string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-string.c"; path = "../../../mxml-string.c"; sourceTree = "<group>"; };
+		73EB9E432CD46F9D00C26DD9 /* mxml-set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-set.c"; path = "../../../mxml-set.c"; sourceTree = "<group>"; };
+		73EB9E442CD46F9D00C26DD9 /* mxml-index.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-index.c"; path = "../../../mxml-index.c"; sourceTree = "<group>"; };
+		73EB9E452CD46F9D00C26DD9 /* mxml-node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-node.c"; path = "../../../mxml-node.c"; sourceTree = "<group>"; };
+		73EB9E462CD46F9E00C26DD9 /* mxml-private.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-private.c"; path = "../../../mxml-private.c"; sourceTree = "<group>"; };
+		73EB9E512CD46FAE00C26DD9 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../config.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73EB9E2D2CD46F3400C26DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73EB9E272CD46F3400C26DD9 = {
+			isa = PBXGroup;
+			children = (
+				73EB9E512CD46FAE00C26DD9 /* config.h */,
+				73EB9E322CD46F3400C26DD9 /* libmxml */,
+				73EB9E522CD46FC200C26DD9 /* tools */,
+				73EB9E312CD46F3400C26DD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73EB9E312CD46F3400C26DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73EB9E302CD46F3400C26DD9 /* libmxml.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73EB9E322CD46F3400C26DD9 /* libmxml */ = {
+			isa = PBXGroup;
+			children = (
+				73EB9E3B2CD46F9D00C26DD9 /* mxml-attr.c */,
+				73EB9E402CD46F9D00C26DD9 /* mxml-entity.c */,
+				73EB9E3C2CD46F9D00C26DD9 /* mxml-file.c */,
+				73EB9E3F2CD46F9D00C26DD9 /* mxml-get.c */,
+				73EB9E442CD46F9D00C26DD9 /* mxml-index.c */,
+				73EB9E452CD46F9D00C26DD9 /* mxml-node.c */,
+				73EB9E462CD46F9E00C26DD9 /* mxml-private.c */,
+				73EB9E3D2CD46F9D00C26DD9 /* mxml-private.h */,
+				73EB9E412CD46F9D00C26DD9 /* mxml-search.c */,
+				73EB9E432CD46F9D00C26DD9 /* mxml-set.c */,
+				73EB9E422CD46F9D00C26DD9 /* mxml-string.c */,
+				73EB9E3E2CD46F9D00C26DD9 /* mxml.h */,
+				73EB9E332CD46F3400C26DD9 /* mxml.swift */,
+				73EB9E3A2CD46F9D00C26DD9 /* mxml-Bridging-Header.h */,
+			);
+			path = libmxml;
+			sourceTree = "<group>";
+		};
+		73EB9E522CD46FC200C26DD9 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73EB9E2F2CD46F3400C26DD9 /* mxml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EB9E372CD46F3400C26DD9 /* Build configuration list for PBXNativeTarget "mxml" */;
+			buildPhases = (
+				73EB9E2C2CD46F3400C26DD9 /* Sources */,
+				73EB9E2D2CD46F3400C26DD9 /* Frameworks */,
+				73EB9E2E2CD46F3400C26DD9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mxml;
+			productName = mxml;
+			productReference = 73EB9E302CD46F3400C26DD9 /* libmxml.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73EB9E282CD46F3400C26DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					73EB9E2F2CD46F3400C26DD9 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = 73EB9E2B2CD46F3400C26DD9 /* Build configuration list for PBXProject "mxml" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73EB9E272CD46F3400C26DD9;
+			productRefGroup = 73EB9E312CD46F3400C26DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73EB9E2F2CD46F3400C26DD9 /* mxml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73EB9E2C2CD46F3400C26DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EB9E4E2CD46F9E00C26DD9 /* mxml-index.c in Sources */,
+				73EB9E4C2CD46F9E00C26DD9 /* mxml-string.c in Sources */,
+				73EB9E4A2CD46F9E00C26DD9 /* mxml-entity.c in Sources */,
+				73EB9E4D2CD46F9E00C26DD9 /* mxml-set.c in Sources */,
+				73EB9E4B2CD46F9E00C26DD9 /* mxml-search.c in Sources */,
+				73EB9E502CD46F9E00C26DD9 /* mxml-private.c in Sources */,
+				73EB9E472CD46F9E00C26DD9 /* mxml-attr.c in Sources */,
+				73EB9E482CD46F9E00C26DD9 /* mxml-file.c in Sources */,
+				73EB9E492CD46F9E00C26DD9 /* mxml-get.c in Sources */,
+				73EB9E342CD46F3400C26DD9 /* mxml.swift in Sources */,
+				73EB9E4F2CD46F9E00C26DD9 /* mxml-node.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		73EB9E352CD46F3400C26DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73EB9E362CD46F3400C26DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73EB9E382CD46F3400C26DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV9454F626;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "libmxml/mxml-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73EB9E392CD46F3400C26DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV9454F626;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "libmxml/mxml-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73EB9E2B2CD46F3400C26DD9 /* Build configuration list for PBXProject "mxml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EB9E352CD46F3400C26DD9 /* Debug */,
+				73EB9E362CD46F3400C26DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EB9E372CD46F3400C26DD9 /* Build configuration list for PBXNativeTarget "mxml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EB9E382CD46F3400C26DD9 /* Debug */,
+				73EB9E392CD46F3400C26DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73EB9E282CD46F3400C26DD9 /* Project object */;
+}
