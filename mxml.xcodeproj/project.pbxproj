@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73EB9F9A2CD86E9800C26DD9 /* mxml.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9F992CD86E9800C26DD9 /* mxml.m */; };
-		73EB9F9B2CD86E9800C26DD9 /* mxml.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 73EB9F982CD86E9800C26DD9 /* mxml.h */; };
 		73EB9FAE2CD86EEC00C26DD9 /* mxml-search.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9FA22CD86EEB00C26DD9 /* mxml-search.c */; };
 		73EB9FAF2CD86EEC00C26DD9 /* mxml-set.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9FA32CD86EEB00C26DD9 /* mxml-set.c */; };
 		73EB9FB02CD86EEC00C26DD9 /* mxml-string.c in Sources */ = {isa = PBXBuildFile; fileRef = 73EB9FA42CD86EEB00C26DD9 /* mxml-string.c */; };
@@ -28,7 +26,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				73EB9F9B2CD86E9800C26DD9 /* mxml.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +33,6 @@
 
 /* Begin PBXFileReference section */
 		73EB9F952CD86E9800C26DD9 /* libmxml.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmxml.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		73EB9F982CD86E9800C26DD9 /* mxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mxml.h; sourceTree = "<group>"; };
-		73EB9F992CD86E9800C26DD9 /* mxml.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mxml.m; sourceTree = "<group>"; };
 		73EB9FA12CD86EC500C26DD9 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../config.h; sourceTree = "<group>"; };
 		73EB9FA22CD86EEB00C26DD9 /* mxml-search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-search.c"; path = "../../../mxml-search.c"; sourceTree = "<group>"; };
 		73EB9FA32CD86EEB00C26DD9 /* mxml-set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "mxml-set.c"; path = "../../../mxml-set.c"; sourceTree = "<group>"; };
@@ -84,7 +79,6 @@
 		73EB9F972CD86E9800C26DD9 /* mxml */ = {
 			isa = PBXGroup;
 			children = (
-				73EB9F982CD86E9800C26DD9 /* mxml.h */,
 				73EB9FA92CD86EEC00C26DD9 /* mxml-attr.c */,
 				73EB9FA62CD86EEC00C26DD9 /* mxml-entity.c */,
 				73EB9FA72CD86EEC00C26DD9 /* mxml-file.c */,
@@ -97,7 +91,6 @@
 				73EB9FA32CD86EEB00C26DD9 /* mxml-set.c */,
 				73EB9FA42CD86EEB00C26DD9 /* mxml-string.c */,
 				73EB9FA52CD86EEC00C26DD9 /* mxml.h */,
-				73EB9F992CD86E9800C26DD9 /* mxml.m */,
 			);
 			path = mxml;
 			sourceTree = "<group>";
@@ -167,7 +160,6 @@
 				73EB9FB72CD86EEC00C26DD9 /* mxml-private.c in Sources */,
 				73EB9FB52CD86EEC00C26DD9 /* mxml-node.c in Sources */,
 				73EB9FB02CD86EEC00C26DD9 /* mxml-string.c in Sources */,
-				73EB9F9A2CD86E9800C26DD9 /* mxml.m in Sources */,
 				73EB9FAF2CD86EEC00C26DD9 /* mxml-set.c in Sources */,
 				73EB9FAE2CD86EEC00C26DD9 /* mxml-search.c in Sources */,
 			);
